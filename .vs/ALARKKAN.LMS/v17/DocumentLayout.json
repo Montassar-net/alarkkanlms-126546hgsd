@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\helpers\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:helpers\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\models\\addusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:models\\addusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\data\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:data\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\musercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:musercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|c:\\users\\boukhadhrama\\source\\repos\\alarkkan.lms\\helpers\\excludehtmlcontenttypeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F03F22C-5773-4080-BCB4-BADAF9506552}|ALARKKAN.LMS.csproj|solutionrelative:helpers\\excludehtmlcontenttypeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\helpers\\UserSeeder.cs",
+              "RelativeDocumentMoniker": "helpers\\UserSeeder.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\helpers\\UserSeeder.cs",
+              "RelativeToolTip": "helpers\\UserSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T08:54:59.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T07:17:37.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LmsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Data\\LmsDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\LmsDbContext.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Data\\LmsDbContext.cs",
+              "RelativeToolTip": "Data\\LmsDbContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T07:10:26.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnrollmentController.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "Controllers\\EnrollmentController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAE0AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T09:36:43.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T09:35:01.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "Controllers\\ClassController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T08:59:17.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T08:56:58.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "Models\\Class.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\Class.cs",
+              "RelativeToolTip": "Models\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T08:56:39.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExcludeHtmlContentTypeProvider.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\helpers\\ExcludeHtmlContentTypeProvider.cs",
+              "RelativeDocumentMoniker": "helpers\\ExcludeHtmlContentTypeProvider.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\helpers\\ExcludeHtmlContentTypeProvider.cs",
+              "RelativeToolTip": "helpers\\ExcludeHtmlContentTypeProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T06:57:34.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-13T06:15:17.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MUserController.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\MUserController.cs",
+              "RelativeDocumentMoniker": "MUserController.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\MUserController.cs",
+              "RelativeToolTip": "MUserController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAQwJwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T05:53:56.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAHQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T05:51:08.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T05:48:38.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\AddUserModel.cs",
+              "RelativeDocumentMoniker": "Models\\AddUserModel.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Models\\AddUserModel.cs",
+              "RelativeToolTip": "Models\\AddUserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T05:47:13.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAQwIUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T05:33:40.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\boukhadhrama\\source\\repos\\ALARKKAN.LMS\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T05:33:02.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

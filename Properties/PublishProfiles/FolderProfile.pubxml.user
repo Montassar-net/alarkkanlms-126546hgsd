@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\boukhadhrama\source\repos\ALARKKAN.LMS\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-09-14T09:47:11.0607828Z;True|2025-09-14T12:24:08.7036454+03:00;True|2025-09-14T12:23:47.4862365+03:00;False|2025-09-14T12:23:37.6677541+03:00;True|2025-09-14T12:11:10.1531729+03:00;False|2025-09-14T12:10:44.4111709+03:00;False|2025-09-14T12:10:19.8094390+03:00;False|2025-09-14T12:09:36.7717135+03:00;True|2025-09-14T12:05:13.3332016+03:00;True|2025-09-14T11:57:51.1361133+03:00;False|2025-09-14T11:57:25.5344331+03:00;True|2025-09-14T11:30:14.0754776+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

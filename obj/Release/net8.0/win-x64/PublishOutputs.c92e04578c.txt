@@ -1,0 +1,6 @@
+C:\Users\boukhadhrama\source\repos\ALARKKAN.LMS\bin\Release\net8.0\win-x64\publish\appsettings.Development.json
+C:\Users\boukhadhrama\source\repos\ALARKKAN.LMS\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\boukhadhrama\source\repos\ALARKKAN.LMS\bin\Release\net8.0\win-x64\publish\ALARKKAN.LMS.pdb
+C:\Users\boukhadhrama\source\repos\ALARKKAN.LMS\bin\Release\net8.0\win-x64\publish\aspnetcorev2_inprocess.dll
+C:\Users\boukhadhrama\source\repos\ALARKKAN.LMS\bin\Release\net8.0\win-x64\publish\e_sqlite3.dll
+C:\Users\boukhadhrama\source\repos\ALARKKAN.LMS\bin\Release\net8.0\win-x64\publish\ALARKKAN.LMS.exe

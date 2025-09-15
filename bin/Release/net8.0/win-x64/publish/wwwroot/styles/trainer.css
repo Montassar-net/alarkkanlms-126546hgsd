@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3bfa5; /* Light background from your palette */
+    color: black; /* Ensure good contrast */
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    width: 95%; /* Fluid width */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 30px auto; /* Reduced top margin */
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+nav {
+    background-color: #fff; /* Ensure contrast */
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Consistent border radius */
+    margin-bottom: 20px; /* Add space below nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #df2820; /* Use primary color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block; /* Make the entire area clickable */
+}
+
+nav ul li a:hover {
+    background-color: #e57156; /* Use secondary color */
+    color: #fff;
+}
+
+/* Section Styles */
+#scheduleSection, #classesSection, #enrollmentsSection {
+    margin-top: 30px;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e57156; /* Use secondary color */
+    border-radius: 5px;
+    box-sizing: border-box; /* Important for width calculation */
+    font-size: 16px; /* Improve readability */
+}
+
+form input:focus, form select:focus {
+    outline: none;
+    border-color: #df2820; /* Highlight on focus */
+    box-shadow: 0 0 5px rgba(223, 40, 32, 0.5); /* Add a subtle shadow */
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #df2820; /* Use primary color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #e57156; /* Use secondary color */
+}
+
+/* List Styles */
+#classList, #enrollmentList {
+    list-style: none;
+    padding: 0;
+}
+
+#classList li, #enrollmentList li {
+    padding: 15px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease; /* Add transition */
+}
+
+#classList li:hover, #enrollmentList li:hover {
+    background-color: #fff; /* Lighten on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack navigation items */
+        align-items: stretch; /* Full width */
+    }
+
+    nav ul li a {
+        text-align: center; /* Center text */
+        margin-bottom: 5px; /* Add spacing */
+    }
+
+    .dashboard-container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+}

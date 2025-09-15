@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles/admin.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="usersTab">Users</a></li>
+                <li><a href="#" id="rolesTab">Roles</a></li>
+                <li><a href="#" id="coursesTab">Courses</a></li>
+                <li><a href="#" id="settingsTab">Settings</a></li>
+            </ul>
+        </nav>
+        <div id="usersSection">
+            <h2>User Management</h2>
+            <button id="addUser">Add New User</button>
+            <ul id="userList"></ul>
+        </div>
+        <div id="rolesSection" style="display: none;">
+            <h2>Role Management</h2>
+            <form id="assignRoleForm">
+                <label for="userId">User:</label>
+                <select id="userId" name="userId" required></select>
+                <label for="role">Role:</label>
+                <select id="role" name="role" required>
+                    <option value="Admin">Admin</option>
+                    <option value="Trainer">Trainer</option>
+                    <option value="Trainee">Trainee</option>
+                </select>
+                <button type="submit">Assign Role</button>
+            </form>
+        </div>
+        <div id="coursesSection" style="display: none;">
+            <h2>Course Management</h2>
+            <form id="addCourseForm">
+                <label for="courseName">Course Name:</label>
+                <input type="text" id="courseName" name="courseName" required>
+                <label for="courseDescription">Description:</label>
+                <textarea id="courseDescription" name="courseDescription" required></textarea>
+                <button type="submit">Add Course</button>
+            </form>
+            <ul id="courseList"></ul>
+        </div>
+        <div id="settingsSection" style="display: none;">
+            <h2>Settings</h2>
+            <p>System settings will be managed here.</p>
+        </div>
+    </div>
+	
+	<div id="addUserModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Add New User</h2>
+        <form id="addUserForm">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" name="username" required>
+            <label for="userEmail">Email:</label>
+            <input type="email" id="userEmail" name="email" required>
+            <label for="userPassword">Password:</label>
+            <input type="password" id="userPassword" name="password" required>
+            <label for="userRole">Role:</label>
+            <select id="userRole" name="role" required>
+                <option value="Admin">Admin</option>
+                <option value="Trainer">Trainer</option>
+                <option value="Trainee">Trainee</option>
+            </select>
+            <button type="submit">Add User</button>
+        </form>
+    </div>
+</div>
+
+<div id="editUserModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Edit User</h2>
+        <form id="editUserForm">
+            <label for="editUserName">Username:</label>
+            <input type="text" id="editUserName" name="username" required>
+            <label for="editUserEmail">Email:</label>
+            <input type="email" id="editUserEmail" name="email" required>
+            <label for="editUserRole">Role:</label>
+            <select id="editUserRole" name="role" required>
+                <option value="Admin">Admin</option>
+                <option value="Trainer">Trainer</option>
+                <option value="Trainee">Trainee</option>
+            </select>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+</div>
+	<script src="scripts/app.js"></script>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3bfa5; /* Light background from your palette */
+    color: black; /* Ensure good contrast */
+}
+
+/* Container Styles */
+.login-container, .dashboard-container , .table-container {
+    width: 90%; /* Fluid width */
+    max-width: 500px; /* Maximum width for larger screens */
+    margin: 50px auto; /* Reduced top margin for better spacing */
+    padding: 20px;
+    background: white; /* Neutral background */
+    border-radius: 8px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+/* Expanded Dashboard Container */
+.dashboard-container {
+    width: 95%; /* Fluid width */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 30px auto; /* Reduced top margin */
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #df2820; /* Primary color for headings */
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333; /* Darker label text */
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch targets */
+    margin-bottom: 15px;
+    border: 1px solid #e57156; /* Secondary color for borders */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    font-size: 16px; /* Improve readability */
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #df2820; /* Highlight on focus */
+    box-shadow: 0 0 5px rgba(223, 40, 32, 0.5); /* Subtle focus effect */
+}
+
+form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #df2820; /* Primary color for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+form button:hover {
+    background: #e57156; /* Secondary color on hover */
+}
+
+/* Link Styles */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #df2820; /* Primary color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e57156; /* Secondary color on hover */
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #fff; /* White navigation background */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #df2820; /* Primary color for nav links */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f3bfa5; /* Light background on hover */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* List Styles */
+#userList,
+#courseList,
+#classList,
+#enrollmentList,
+#scheduleList,
+#paymentList {
+    list-style: none;
+    padding: 0;
+}
+
+#userList li,
+#courseList li,
+#classList li,
+#enrollmentList li,
+#scheduleList li,
+#paymentList li {
+    padding: 12px;
+    background: #f9f9f9;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Section Styles */
+#usersSection,
+#rolesSection,
+#coursesSection,
+#settingsSection,
+#scheduleSection,
+#classesSection,
+#enrollmentsSection,
+#paymentsSection {
+    margin-top: 30px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    margin: 4px 8px;
+    background: #df2820; /* Use primary color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #e57156; /* Use secondary color */
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto; /* Adjust top margin for better centering */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Fluid width */
+    max-width: 500px; /* Maximum width */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px; /* Increase size for better touch target */
+    color: #888;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Payment Result */
+#paymentResult {
+    margin-top: 15px;
+    color: #28a745; /* Use a green color */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .login-container, .dashboard-container {
+        width: 95%; /* Wider on smaller screens */
+        margin: 20px auto; /* Less top margin */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items on smaller screens */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack navigation items */
+        align-items: stretch; /* Full width */
+    }
+
+    nav ul li a {
+        text-align: center; /* Center text */
+        margin-bottom: 5px; /* Add spacing */
+    }
+
+    .dashboard-container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .modal-content {
+        margin: 20% auto; /* Adjust modal position on smaller screens */
+    }
+}
+
+
+
+
+table {
+  width: 100%;          /* Make the table take up the full width of its container */
+  border-collapse: collapse; /* Remove spacing between table cells */
+  border-spacing: 0;       /* Remove spacing between table cells */
+}
+
+th,
+td {
+  padding: 8px;         /* Add padding to cells for readability */
+  border: 1px solid #ddd; /* Add borders to cells */
+  text-align: left;      /* Align text to the left */
+  white-space: nowrap;   /* Prevent text from wrapping (important for horizontal scrolling) */
+}
+
+th {
+  background-color: #f2f2f2; /* Style the table header */
+  font-weight: bold;
+}

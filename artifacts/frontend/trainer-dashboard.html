@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer Dashboard</title>
+    <link rel="stylesheet" href="styles/trainer.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Trainer Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="scheduleTab">Schedule</a></li>
+                <li><a href="#" id="classesTab">Classes</a></li>
+                <li><a href="#" id="enrollmentsTab">Enrollments</a></li>
+            </ul>
+        </nav>
+        <div id="scheduleSection">
+            <h2>Schedule New Class</h2>
+            <form id="scheduleClassForm">
+                <label for="course">Course:</label>
+                <select id="course" name="course" required></select>
+                <label for="time">Time:</label>
+                <input type="datetime-local" id="time" name="time" required>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                <button type="submit">Schedule</button>
+            </form>
+        </div>
+        <div id="classesSection">
+            <h2>Your Classes</h2>
+            <ul id="classList"></ul>
+        </div>
+        <div id="enrollmentsSection">
+            <h2>Enrolled Trainees</h2>
+            <ul id="enrollmentList"></ul>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/trainer.js"></script>
+</body>
+</html>

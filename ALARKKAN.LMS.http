@@ -1,0 +1,6 @@
+@ALARKKAN.LMS_HostAddress = http://localhost:5198
+
+GET {{ALARKKAN.LMS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

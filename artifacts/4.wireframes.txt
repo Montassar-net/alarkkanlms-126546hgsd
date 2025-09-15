@@ -1,0 +1,95 @@
+
++---------------------------------------+
+|              LMS Login                |
++---------------------------------------+
+| Username: [________________________] |
+| Password: [________________________] |
+| [ Login ]                             |
++---------------------------------------+
+| Forgot Password? [Click Here]         |
++---------------------------------------+
+
++---------------------------------------+
+|          Admin Dashboard              |
++---------------------------------------+
+| [Users] [Roles] [Courses] [Settings]  |
++---------------------------------------+
+| User List:                            |
+| 1. John Doe (Trainee) [Edit] [Delete] |
+| 2. Jane Smith (Trainer) [Edit] [Delete]|
+| [Add New User]                        |
++---------------------------------------+
+
++---------------------------------------+
+|         Trainee Dashboard             |
++---------------------------------------+
+| [Courses] [Schedule] [Payments]       |
++---------------------------------------+
+| Available Courses:                    |
+| 1. Course A [Register]                |
+| 2. Course B [Register]                |
+| [View All Courses]                    |
++---------------------------------------+
+
++---------------------------------------+
+|         Trainer Dashboard             |
++---------------------------------------+
+| [Schedule] [Classes] [Enrollments]    |
++---------------------------------------+
+| Schedule New Class:                   |
+| Course: [Dropdown]                    |
+| Time: [Input]                         |
+| Location: [Input]                     |
+| [Schedule]                            |
++---------------------------------------+
+
++---------------------------------------+
+|        Course Registration            |
++---------------------------------------+
+| Course: Course A                      |
+| Description: [Course Description]     |
+| Duration: 10 hours                    |
+| Cost: $50                             |
+| [Register]                            |
++---------------------------------------+
+
++---------------------------------------+
+|          Class Booking                |
++---------------------------------------+
+| Course: Course A                      |
+| Available Classes:                    |
+| 1. Class 1 (Time: 10 AM) [Book]       |
+| 2. Class 2 (Time: 2 PM) [Book]        |
+| [View All Classes]                    |
++---------------------------------------+
+
++---------------------------------------+
+|            Payment                    |
++---------------------------------------+
+| Course: Course A                      |
+| Class: Class 1 (Time: 10 AM)          |
+| Amount: $50                           |
+| Payment Method: [Dropdown]            |
+| [Pay Now]                             |
++---------------------------------------+
+
++---------------------------------------+
+|        Class Management               |
++---------------------------------------+
+| Class: Class 1 (Time: 10 AM)          |
+| Status: Open [Close]                  |
+| Enrolled Trainees:                    |
+| 1. John Doe                           |
+| 2. Jane Smith                         |
+| [View All Enrollments]                |
++---------------------------------------+
+
++---------------------------------------+
+|            User Profile               |
++---------------------------------------+
+| Name: John Doe                        |
+| Email: john.doe@example.com           |
+| Role: Trainee                         |
+| [Edit Profile]                        |
++---------------------------------------+
+
