@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Fetch courses for the dropdown
     try {
-        const response = await fetch('/api/course', {
+        const response = await fetch(BASE_URL + '/api/course', {
             method: 'GET',
             headers: { 'Authorization': `Bearer ${token}` }
         });
@@ -37,7 +37,7 @@ document.getElementById('scheduleClassForm').addEventListener('submit', async (e
 
     const token = localStorage.getItem('token');
     try {
-        const response = await fetch('/api/Classes', {
+        const response = await fetch(BASE_URL + '/api/Classes', {
             method: 'POST',
             headers: { 
                 'Authorization': `Bearer ${token}`,
@@ -62,7 +62,7 @@ document.getElementById('scheduleClassForm').addEventListener('submit', async (e
 async function fetchTrainerClasses() {
     const token = localStorage.getItem('token');
     try {
-        const response = await fetch('/api/Classes', {
+        const response = await fetch(BASE_URL + '/api/Classes', {
             method: 'GET',
             headers: { 'Authorization': `Bearer ${token}` }
         });

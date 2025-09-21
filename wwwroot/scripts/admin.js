@@ -72,7 +72,7 @@ async function fetchUsers() {
     if (!token) return;
 
     try {
-        const response = await fetch('/api/MUser', {
+        const response = await fetch(BASE_URL + '/api/MUser', {
             headers: { 'Authorization': `Bearer ${token}` }
         });
         
@@ -103,7 +103,7 @@ async function handleAddUser(e) {
     const data = Object.fromEntries(new FormData(form).entries());
 
     try {
-        const response = await fetch('/api/MUser', {
+        const response = await fetch(BASE_URL+'/api/MUser', {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -136,7 +136,7 @@ async function handleUpdateUser(e) {
      const role = document.getElementById('editUserRole').value;
 
     try {
-        const response = await fetch(`/api/MUser/${userId}`, {
+        const response = await fetch(BASE_URL +`/api/MUser/${userId}`, {
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -165,7 +165,7 @@ async function fetchAndPopulateUsersForRoleAssignment() {
     if (!token) return;
 
     try {
-        const response = await fetch('/api/MUser', {
+        const response = await fetch(BASE_URL + '/api/MUser', {
             headers: { 'Authorization': `Bearer ${token}` }
         });
         
@@ -196,7 +196,7 @@ async function handleAssignRole(e) {
     if (!token || !userId || !role) return;
 
     try {
-        const response = await fetch(`/api/MUser/${userId}/role`, {
+        const response = await fetch(BASE_URL +`/api/MUser/${userId}/role`, {
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -230,7 +230,7 @@ window.editUser = async (userId) => {
     if (!token) return;
     
     try {
-        const response = await fetch(`/api/MUser/${userId}`, {
+        const response = await fetch(BASE_URL +`/api/MUser/${userId}`, {
             headers: { 'Authorization': `Bearer ${token}` }
         });
         
@@ -252,7 +252,7 @@ window.deleteUser = async (userId) => {
     const token = localStorage.getItem('token');
     if (!token) return;
     try {
-        const response = await fetch(`/api/MUser/${userId}`, {
+        const response = await fetch(BASE_URL +`/api/MUser/${userId}`, {
             method: 'DELETE',
             headers: { 'Authorization': `Bearer ${token}` }
         });
@@ -276,7 +276,7 @@ async function fetchCourses() {
     if (!token) return;
 
     try {
-        const response = await fetch('/api/Course', {
+        const response = await fetch(BASE_URL + '/api/Course', {
             headers: { 'Authorization': `Bearer ${token}` }
         });
         
@@ -312,7 +312,7 @@ async function handleAddCourse(e) {
     const coursePrice = parseFloat(document.getElementById('coursePrice').value);
 
     try {
-        const response = await fetch('/api/course', {
+        const response = await fetch(BASE_URL + '/api/course', {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -347,7 +347,7 @@ window.editCourse = async (courseId) =>{
 
     try {
         // Step 1: Fetch the course data from the server
-        const response = await fetch(`/api/course/${courseId}`, {
+        const response = await fetch(BASE_URL +`/api/course/${courseId}`, {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -397,7 +397,7 @@ document.getElementById('editCourseForm').addEventListener('submit', async (e) =
     };
 
     try {
-        const response = await fetch(`/api/Course/${courseId}`, {
+        const response = await fetch(BASE_URL +`/api/Course/${courseId}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -429,7 +429,7 @@ window.deleteCourse = async (courseId) => {
     const token = localStorage.getItem('token');
     if (!token) return;
     try {
-        const response = await fetch(`/api/course/${courseId}`, {
+        const response = await fetch(BASE_URL +`/api/course/${courseId}`, {
             method: 'DELETE',
             headers: { 'Authorization': `Bearer ${token}` }
         });
@@ -519,7 +519,7 @@ async function seedCourses() {
 
     for (const course of courses) {
         try {
-            const response = await fetch('/api/course', {
+            const response = await fetch((BASE_URL + '/api/course', {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,

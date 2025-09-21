@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 		document.getElementById("classSection").style.display = "none";
     // Fetch available courses
     try {
-        const response = await fetch('/api/Course', {
+        const response = await fetch(BASE_URL + '/api/Course', {
             method: 'GET',
             headers: { 'Authorization': `Bearer ${token}` }
         });
@@ -48,7 +48,7 @@ async function bookCourse(courseId) {
 	
 	const token = localStorage.getItem('token');
 	try {
-        const response = await fetch('/api/Classes/ByCourse/'+courseId, {
+        const response = await fetch(BASE_URL + '/api/Classes/ByCourse/'+courseId, {
             method: 'GET',
             headers: { 'Authorization': `Bearer ${token}` }
         });
@@ -155,7 +155,7 @@ async function mockPaymentProcess() {
 async function fetchTraineeSchedule() {
     const token = localStorage.getItem('token');
     try {
-        const response = await fetch('/api/Enrollment/MyEnrollments', {
+        const response = await fetch(BASE_URL + '/api/Enrollment/MyEnrollments', {
             method: 'GET',
             headers: { 'Authorization': `Bearer ${token}` }
         });
@@ -213,7 +213,7 @@ async function fetchPaymentHistory() {
 document.getElementById('viewAllCourses').addEventListener('click', async () => {
     const token = localStorage.getItem('token');
     try {
-        const response = await fetch('/api/Course', {
+        const response = await fetch(BASE_URL + '/api/Course', {
             method: 'GET',
             headers: { 'Authorization': `Bearer ${token}` }
         });

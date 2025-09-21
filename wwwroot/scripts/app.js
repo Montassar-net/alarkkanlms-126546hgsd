@@ -1,3 +1,4 @@
+const BASE_URL = '';
 function decodeJwt(token) {
   try {
     // JWTs are composed of three parts separated by dots: header, payload, and signature.
@@ -35,5 +36,5 @@ function logout() {
     localStorage.removeItem('token');
 
     // Redirect the user to the login page
-    window.location.href = '/login.html'; // Replace with your login page URL
+    window.location.href = BASE_URL+'/login.html'; // Replace with your login page URL
 }
